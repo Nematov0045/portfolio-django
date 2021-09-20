@@ -589,7 +589,7 @@ header{
     color:#6c7279;
     
 }
-.input,textarea{
+input,textarea{
     width: 700px;
     padding: 13px 40px;
 }

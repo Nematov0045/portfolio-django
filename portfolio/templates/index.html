@@ -224,7 +224,7 @@
     
             <div class="d__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam rerum beatae in quia vel qui.</div>
              <div data-aos="fade-right">
-                <form action="formMessage" method="POST">
+                <form action="formMessage/" method="POST">
                     {% csrf_token %}
                     <input type="email" placeholder="Email" name="email">
                     <br>
@@ -233,10 +233,11 @@
                      <br>
                      <br>
                      <textarea name="message"  cols="30" rows="5" placeholder="Message"></textarea>
-                    </form>
+                    
                     <br>
     
                 <button type="submit" class="btn btn--red btn--long">send</button>
+            </form>
              </div>
             
             
